@@ -1,0 +1,82 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+.w3-bar,
+h1,
+button {
+    font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,
+.fa-coffee {
+    font-size: 200px
+}
+
+body,
+h1 {
+    font-family: "Raleway", sans-serif
+}
+
+body,
+html {
+    height: 100%
+}
+
+
+.bgimg {
+    background-image: url('lisbon.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+
+   
+}
+
+
+.fade-in-text {
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #55ffb0;
+    padding: 20px;
+    text-align: center;
+}
+
+.fade-in-text h1 {
+    font-size: 150px;
+   
+}
+
+.fade-in-text h2 {
+    font-size:100px;
+    
+}
+
+
+.fade-in-text h1,
+.fade-in-text h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}

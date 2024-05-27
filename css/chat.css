@@ -1,0 +1,157 @@
+        /*------------------------------------------------ Estilos para os balões de mensagens do chat -------------------------------------------------*/
+
+            .bubbleWrapper {
+                padding: 10px 10px;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                align-self: flex-end;
+                color: #fff;
+            }
+            .inlineContainer {
+                display: inline-flex;
+            }
+            .inlineContainer.own {
+                flex-direction: row-reverse;
+            }
+            .inlineIcon {
+                width:20px;
+                object-fit: contain;
+            }
+            .ownBubble {
+                min-width: 60px;
+                max-width: 700px;
+                padding: 14px 18px;
+                margin: 6px 8px;
+                background-color: #5b5377;
+                border-radius: 16px 16px 0 16px;
+                border: 1px solid #443f56;
+            }
+            .otherBubble {
+                min-width: 60px;
+                max-width: 700px;
+                padding: 14px 18px;
+                margin: 6px 8px;
+                background-color: #6C8EA4;
+                border-radius: 16px 16px 16px 0;
+                border: 1px solid #54788e;
+            }
+            .own {
+                align-self: flex-end;
+            }
+            .other {
+                align-self: flex-start;
+            }
+            span.own,
+            span.other{
+                font-size: 14px;
+                color: grey;
+            }
+
+            /*-------------------------------------------------- Estilos para o formulário de chat -----------------------------------------------------*/
+
+#chat-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#chat-form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#chat-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #555;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px #0056b3;
+    transition: border-color 0.3s ease;
+}
+
+#chat-form button[type="submit"],
+#chat-form button[type="button"] {
+    background-color: #fbf97c;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#chat-form button[type="submit"]:hover,
+#chat-form button[type="button"]:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.chat-box {
+    margin-bottom: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.chat-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.chat-message.own {
+    background-color: #d1e7dd;
+    text-align: right;
+    margin-left: auto;
+}
+
+.chat-message.other {
+    background-color: #f8d7da;
+    text-align: left;
+    margin-right: auto;
+}
+
+.chat-message.employee {
+    background-color: #fff3cd;
+    /* Yellow background */
+    text-align: left;
+    margin-right: auto;
+}
+
+.chat-message .sender {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.chat-message .message {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.chat-message .time-date {
+    display: block;
+    font-size: 0.85em;
+    color: #888;
+}
