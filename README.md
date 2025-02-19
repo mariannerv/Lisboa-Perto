@@ -65,4 +65,4 @@ k) Pesquisas, relatórios e estatísticas: Os funcionários da CML podem pesquis
 diversos critérios (p.e., categoria, subcategoria, estado, e localidade) e a aplicação deverá
 fornecer relatórios e estatísticas detalhadas sobre as ocorrências relatadas, tempos médios de
 resolução e categorias mais problemáticas.
-
+  
