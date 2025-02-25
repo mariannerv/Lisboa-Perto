@@ -66,3 +66,4 @@ diversos critérios (p.e., categoria, subcategoria, estado, e localidade) e a ap
 fornecer relatórios e estatísticas detalhadas sobre as ocorrências relatadas, tempos médios de
 resolução e categorias mais problemáticas.
   
+
